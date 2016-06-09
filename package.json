@@ -1,0 +1,58 @@
+{
+  "name": "vue-hypercomments",
+  "version": "1.0.0",
+  "description": "Vue.js Hypercomments plugin",
+  "main": "lib/vue-hypercomments.js",
+  "scripts": {
+    "lint": "eslint src/index.js",
+    "test": "",
+    "build": "webpack",
+    "prepublish": "npm run build"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "Vue.js",
+    "vue",
+    "hypercomments",
+    "Hypercomments",
+    "comments"
+  ],
+  "author": "Rikcon",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-espower": "^2.1.2",
+    "babel-preset-es2015": "^6.5.0",
+    "eslint": "^2.2.0",
+    "espower-babel": "^4.0.1",
+    "json-loader": "^0.5.4",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-cli": "^0.1.2",
+    "karma-mocha": "^0.2.2",
+    "karma-mocha-reporter": "^1.2.2",
+    "karma-sinon": "^1.0.4",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "power-assert": "^1.2.0",
+    "sinon": "^1.17.3",
+    "vue": "^1.0.24",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rikcon/vue-hypercomments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rikcon/vue-hypercomments/issues"
+  },
+  "homepage": "https://github.com/Rikcon/vue-hypercomments#readme"
+}
