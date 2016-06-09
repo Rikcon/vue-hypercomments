@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vue YouTube Embed
 This is a component for Vue.js to utilize YouTube iframe API easily.
 This is based on [Angular YouTube Embed](http://brandly.github.io/angular-youtube-embed/)
@@ -133,3 +134,6 @@ const app = new Vue({
 
 ## Contribution
 * contribution welcome!
+=======
+# vue-hypercomments
+>>>>>>> 672a7b4bd70e6d795a1d1e7ed40341371b74bbbf
